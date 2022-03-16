@@ -87,10 +87,10 @@
     right: 0;
 }
 .experience__dot_fifteen {
-    top: 101px;
+    top: 105px;
     margin-left: auto;
     margin-right: auto;
-    left: 146px;
+    left: 320px;
     right: 0;
 }
 .experience__text-card_bayer {
@@ -209,6 +209,13 @@
     left: 0;
     right: 90px;
 }
+.experience__dot_twenty {
+    top: 612px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 60px;
+}
 .experience__icon_reward {
     top: 614px;
     left: 0;
@@ -224,6 +231,13 @@
     margin-left: auto;
     margin-right: auto;
     left: 86px;
+    right: 0;
+}
+.experience__dot_twenty-one {
+    top: 846px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 72px;
     right: 0;
 }
 .experience__icon_partnership {
@@ -413,4 +427,119 @@
     margin-right: auto;
     left: 0;
     right: 24px;
+}
+@media (max-width: 768px) {
+    .experience__road {
+        background-image: url("./img/road_mob.png");
+    }
+    .experience__year {
+        font-size: 14px;
+        line-height: 19px;
+        width: fit-content;
+        background: #8CC152;
+    }
+    .experience__dot {
+        width: 10px;
+        height: 10px;
+    }
+    .experience__year_twelve {
+        top: 30px;
+        left: 0;
+        right: 172px;
+    }
+    .experience__dot_twelve {
+        top: 48px;
+        left: 0;
+        right: 108px;
+    }
+    .experience__text-card_zoner {
+        top: 86px;
+        left: 0;
+        right: 130px;
+    }
+    .experience__year_fifteen {
+        top: 95px;
+        left: 100px;
+        right: 0;
+    }
+    .experience__dot_fifteen {
+        top: 122px;
+        left: 125px;
+        right: 0;
+    }
+    .experience__text-card_bayer {
+        top: 134px;
+        left: 278px;
+        right: 0;
+    }
+    .experience__year_eighteen {
+        top: 198px;
+        left: 74px;
+        right: 0;
+    }
+    .experience__year_nineteen {
+        top: 252px;
+        left: 0;
+        right: 66px;
+    }
+    .experience__dot_nineteen {
+        top: 282px;
+        left: 0;
+        right: 120px;
+    }
+    .experience__text-card_start {
+        display: none;
+    }
+    .experience__icon_desktop {
+        top: 300px;
+        left: 0;
+        right: 194px;
+        width: 64px;
+    }
+    .experience__icon-line_desktop {
+        width: 118px;
+        top: 325px;
+        left: 0;
+        right: 52px;
+    }
+    .experience__icon_chemistry {
+        width: 60px;
+        top: 409px;
+        left: 0;
+        right: 156px;
+    }
+    .experience__icon-line_chemistry {
+        width: 118px;
+        top: 454px;
+        left: 0;
+        right: 40px;
+    }
+    .experience__year_twenty {
+        top: 528px;
+        left: 224px;
+        right: 0;
+    }
+    .experience__dot_twenty {
+        top: 554px;
+        left: 266px;
+        right: 0;
+    }
+    .experience__icon_reward {
+        width: 60px;
+        top: 572px;
+        left: 287px;
+        right: 0;
+    }
+    .experience__icon-line_reward {
+        width: 80px;
+        top: 600px;
+        left: 206px;
+        right: 0;
+    }
+    .experience__icon_phone {
+        width: 60px;
+        top: 700px;
+        left: 256px;
+        right: 0;
+    }
 }
