@@ -370,6 +370,28 @@
     }
 }
 
+.experience__dots_flashing {
+    animation-duration: 1s;
+    animation-name: flashing-dots;
+    animation-timing-function: ease;
+    animation-iteration-count: 4;
+    animation-direction: normal;
+}
+
+@keyframes flashing-dots {
+    0% {
+        background-color: #fff;
+    }
+
+    50% {
+        background-color: #FFFF00;
+    }
+
+    100% {
+        background-color: #fff;
+    }
+}
+
 .experience__land {
     position: absolute;
     margin-left: auto;
@@ -377,6 +399,7 @@
     left: 0;
     right: 24px;
     bottom: -56px;
+    max-width: 100%;
 }
 
 .experience__content {
@@ -507,7 +530,7 @@
     }
 
     .experience__road {
-        background-image: url("./img/road_mob.png");
+        background-image: url("./img/road_mob_1.png");
     }
 
     .experience__year {
@@ -523,13 +546,13 @@
     }
 
     .experience__year_twelve {
-        top: 30px;
+        top: 36px;
         left: 0;
         right: 172px;
     }
 
     .experience__dot_twelve {
-        top: 48px;
+        top: 53px;
         left: 0;
         right: 108px;
     }
@@ -542,13 +565,13 @@
 
     .experience__year_fifteen {
         top: 95px;
-        left: 100px;
+        left: 77px;
         right: 0;
     }
 
     .experience__dot_fifteen {
         top: 122px;
-        left: 125px;
+        left: 102px;
         right: 0;
     }
 
@@ -560,20 +583,20 @@
 
     .experience__year_eighteen {
         top: 198px;
-        left: 74px;
+        left: 30px;
         right: 0;
     }
 
     .experience__year_nineteen {
         top: 252px;
         left: 0;
-        right: 66px;
+        right: 140px;
     }
 
     .experience__dot_nineteen {
         top: 282px;
         left: 0;
-        right: 120px;
+        right: 193px;
     }
 
     .experience__text-card_start {
@@ -583,7 +606,7 @@
     .experience__icon_desktop {
         top: 300px;
         left: 0;
-        right: 194px;
+        right: 230px;
         width: 64px;
     }
 
@@ -598,25 +621,25 @@
         width: 60px;
         top: 409px;
         left: 0;
-        right: 156px;
+        right: 248px;
     }
 
     .experience__icon-line_chemistry {
         width: 118px;
         top: 454px;
         left: 0;
-        right: 40px;
+        right: 126px;
     }
 
     .experience__year_twenty {
         top: 528px;
-        left: 224px;
+        left: 182px;
         right: 0;
     }
 
     .experience__dot_twenty {
         top: 554px;
-        left: 266px;
+        left: 258px;
         right: 0;
     }
 
@@ -628,43 +651,43 @@
     }
 
     .experience__icon-line_reward {
-        width: 80px;
+        width: 121px;
         top: 600px;
-        left: 206px;
+        left: 173px;
         right: 0;
     }
 
     .experience__icon_phone {
         width: 60px;
         top: 700px;
-        left: 256px;
+        left: 293px;
         right: 0;
     }
 
     .experience__icon-line_phone {
-        width: 80px;
+        width: 143px;
         top: 730px;
-        left: 180px;
+        left: 150px;
         right: 0;
     }
 
     .experience__year_twenty-one {
         top: 858px;
         left: 0;
-        right: 26px;
+        right: 38px;
     }
 
     .experience__dot_twenty-one {
         top: 888px;
         left: 0;
-        right: 107px;
+        right: 128px;
     }
 
     .experience__icon_partnership {
         width: 60px;
         top: 954px;
         left: 0px;
-        right: 180px;
+        right: 210px;
     }
 
     .experience__icon-line_partnership {
@@ -691,7 +714,7 @@
     .experience__year_twenty-two {
         top: 1594px;
         left: 0;
-        right: 4px;
+        right: 27px;
     }
 
     .experience__content {
@@ -717,7 +740,7 @@
         position: absolute;
         margin-left: auto;
         margin-right: auto;
-        left: 206px;
+        left: 170px;
         right: 0;
         top: 225px;
         width: 210px;
@@ -729,7 +752,7 @@
         margin-left: auto;
         margin-right: auto;
         left: 0;
-        right: 36px;
+        right: 144px;
         top: 526px;
         width: 210px;
     }
@@ -750,7 +773,7 @@
         position: absolute;
         margin-left: auto;
         margin-right: auto;
-        left: 206px;
+        left: 170px;
         right: 0;
         top: 426px;
         width: 210px;
@@ -762,7 +785,7 @@
         margin-left: auto;
         margin-right: auto;
         left: 0;
-        right: 36px;
+        right: 144px;
         top: 668px;
         width: 210px;
     }
@@ -777,16 +800,118 @@
         top: 1244px;
         width: 210px;
     }
+
+    @keyframes flying-satellite {
+        0% {
+            left: 106px;
+            bottom: 124px;
+        }
+
+        50% {
+            left: 96px;
+            bottom: 144px;
+        }
+
+        100% {
+            left: 106px;
+            bottom: 124px;
+        }
+    }
 }
 
 @media (max-width: 420px) {
     .experience__text-card_bayer {
-        left: unset;
+        left: 180px;
+        right: 0;
+        top: 142px;
+    }
+
+    .experience__icon_desktop {
+        top: 330px;
+        left: 0;
+        right: 242px;
+        width: 64px;
+    }
+
+    .experience__icon-line_desktop {
+        width: 160px;
+        top: 357px;
+        left: 0;
+        right: 52px;
+    }
+
+    .experience__dot_nineteen {
+        top: 302px;
+        left: 0;
+        right: 224px;
+    }
+
+    .experience__year_nineteen {
+        top: 270px;
+        left: 0;
+        right: 178px;
+    }
+
+    .experience__year_twenty {
+        top: 528px;
+        left: 184px;
         right: 0;
     }
 
+    .experience__dot_twenty {
+        top: 554px;
+        left: 258px;
+        right: 0;
+    }
+
+    .experience__icon_reward {
+        width: 60px;
+        top: 572px;
+        left: 258px;
+        right: 0;
+    }
+
+    .experience__icon-line_reward {
+        width: 121px;
+        top: 600px;
+        left: 145px;
+        right: 0;
+    }
+
+    .experience__year_twenty-one {
+        top: 854px;
+        left: 0;
+        right: 26px;
+    }
+
+    .experience__dot_twenty-one {
+        top: 881px;
+        left: 0;
+        right: 107px;
+    }
+
+    .experience__icon_partnership {
+        width: 60px;
+        top: 954px;
+        left: 0px;
+        right: 216px;
+    }
+
+    .experience__icon_ground {
+        width: 60px;
+        top: 1300px;
+        left: 209px;
+        right: 0;
+    }
+
+    .experience__year_twenty-two {
+        top: 1594px;
+        left: 0;
+        right: 29px;
+    }
+
     .experience__text-block_left:nth-child(2) {
-        left: unset;
+        left: 103px;
         right: 0;
     }
 
@@ -796,18 +921,19 @@
         margin-left: auto;
         margin-right: auto;
         left: 0;
-        right: 36px;
+        right: 104px;
         top: 526px;
         width: 210px;
     }
 
     .experience__text-block_left:nth-child(4) {
-        left: unset;
+        left: 103px;
         right: 0;
+        top: 904px;
     }
 
     .experience__text-block_right:nth-child(2) {
-        left: unset;
+        left: 103px;
         right: 0;
     }
 
@@ -817,7 +943,7 @@
         margin-left: auto;
         margin-right: auto;
         left: 0;
-        right: 36px;
+        right: 104px;
         top: 668px;
         width: 210px;
     }
@@ -828,7 +954,7 @@
         margin-left: auto;
         margin-right: auto;
         left: 0;
-        right: 74px;
+        right: 104px;
         top: 1244px;
         width: 210px;
     }
