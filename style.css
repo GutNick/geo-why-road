@@ -910,6 +910,13 @@
         right: 29px;
     }
 
+    .experience__icon_phone {
+        width: 60px;
+        top: 700px;
+        left: 273px;
+        right: 0;
+    }
+
     .experience__text-block_left:nth-child(2) {
         left: 103px;
         right: 0;
@@ -944,7 +951,7 @@
         margin-right: auto;
         left: 0;
         right: 104px;
-        top: 668px;
+        top: 682px;
         width: 210px;
     }
 
